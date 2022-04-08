@@ -1,0 +1,19 @@
+div {
+  height: 8rem;
+  object-fit: contain;
+  position: relative;
+  img {
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    height: inherit;
+  }
+  h1 {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 2rem;
+ }
+}
