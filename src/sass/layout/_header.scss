@@ -1,13 +1,17 @@
+@import '../abstracts/variables';
+
 div {
   height: 8rem;
   object-fit: contain;
   position: relative;
+  box-shadow: 0 0 .33rem .33rem rgb(154, 180, 188);
   img {
     background-size: contain;
     object-fit: cover;
     background-position: center;
     width: 100%;
     height: inherit;
+    opacity: .7;
   }
   h1 {
    position: absolute;
@@ -15,5 +19,11 @@ div {
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 2rem;
+   font-family: $trispace;
+   font-weight: 300;
+   text-decoration: overline;
+   text-decoration-color: rgba(27, 162, 207, 0.5);
+   text-decoration-thickness: 3px;
+   color: rgba(96, 96, 96, 0.85);
  }
 }
